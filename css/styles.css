@@ -1,0 +1,69 @@
+:root {
+    --main-font: "Roboto", sans-serif;
+    --second-font: "Raleway", sans-serif;
+    --main-color: #4d5ae5;
+    --second-color: #2e2f42;
+    --pressed-state-color: #404bbf;
+    --font-body-color: #434455;
+    --font-header-color: #2e2f42;
+    --font-dark-theme: #f4f4fd;
+    --font-header-dark-theme: #ffffff;
+    --background-main-color: #2e2f42;
+    --background-second-color: #f4f4fd;
+  }
+  body {
+    font-family: var(--main-font);
+    color: var(--font-body-color);
+  }
+  a {
+    text-decoration: none;
+    
+  }
+  
+  li {
+    list-style: none;
+  }
+
+  /*----Components----*/
+
+  .logo, .logo-dark-theme{
+    color: var(--font-header-color);
+    font-family: var(--second-font);
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 1.166;
+    letter-spacing: 0.03em;
+    text-transform:uppercase;
+  }
+  .logo>span {
+    color: var(--main-color);
+  }
+  .logo-dark-theme {
+    color: var(--font-dark-theme);
+  }
+
+/*--- Nav Menue + Adress-----*/
+
+  .nav-list-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--font-header-color);
+  }
+  .nav-list-link:hover,
+  .nav-list-link:focus {
+    color: var(--main-color);
+  }
+  
+  .contact-list-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--font-secondary-color);
+    font-style: normal;
+  }
+  .contact-list-link:hover,
+  .contact-list-link:focus {
+    color: var(--main-color);
+  }
